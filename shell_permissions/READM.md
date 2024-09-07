@@ -1,36 +1,24 @@
-#!/bin/bash
-0-iam_betty
-Description: This script switches the current user to the user betty. The command used in the script is exactly 8 characters long, plus 1 newline character.
+### **0-iam_betty**
 
-Command in the Script:
-su betty
+This script switches the current user to `betty`.
 
-1-who_am_i
-Description: This script prints the effective username of the current user.
+### **1-who_am_i**
 
-Command in the Script:
-whoami
+This script prints the effective username of the current user.
 
-4-empty
-Description: This script creates an empty file named hello in the current directory.
+### **4-empty**
 
-Command in the Script:
-touch hello
+This script creates an empty file called `hello`.
 
-5-execute
-Description: This script adds execute permission to the owner of the file hello.
+### **5-execute**
 
-Command in the Script:
-chmod u+x hello
+This script adds execute permission to the owner of the file `hello`.
 
-6-multiple_permissions
-Description: This script adds execute permission for the owner and the group, and read permission for others, to the file hello.
+### **6-multiple_permissions**
 
-Command in the Script:
-chmod u+x,g+x,o+r hello
+This script adds execute permission for the owner and group, and read permission for others, to the file `hello`.
 
-9-John_Doe
-Description: This script sets the permissions of the file hello to -rwxr-x-wx.
+### **9-John_Doe**
 
-Command in the Script:
-chmod 753 hello
+This script sets the permissions of the file `hello` to `-rwxr-x-wx`.
+
